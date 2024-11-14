@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import {
   ClerkProvider,
+  RedirectToSignIn,
   SignInButton,
   SignedIn,
   SignedOut,
@@ -40,6 +41,7 @@ export default function RootLayout({
         >
           <SignedOut>
             <SignInButton mode="modal" />
+            {/* <RedirectToSignIn /> */}
           </SignedOut>
           <SignedIn>
             <UserButton />

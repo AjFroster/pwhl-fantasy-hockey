@@ -1,17 +1,3 @@
-// "use client";
-
-// import { useUser } from "@clerk/nextjs";
-// import React from "react";
-
-// const UserDashboard = () => {
-//   const { user } = useUser();
-
-//   return (
-//     <div className="min-h-screen flex items-center justify-center bg-gray-100 text-gray-900">
-//       <h1 className="text-2xl font-bold">Welcome, {user?.firstName}!</h1>
-//     </div>
-//   );
-// };
 "use client";
 
 import React from "react";
@@ -76,5 +62,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-
-// export default UserDashboard;

@@ -29,7 +29,7 @@ const HeroPage = () => {
         {/* Right Column - Image */}
         <div className="flex justify-center items-center">
           <img
-            src={heroImage} // Replace with your image path
+            // src={heroImage} // Replace with your image path
             alt="Fantasy Hockey"
             className="max-w-full h-auto rounded-lg shadow-lg"
           />

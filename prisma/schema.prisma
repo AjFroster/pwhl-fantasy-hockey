@@ -1,0 +1,120 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// User Base Stuff
+
+model User {
+  id        String   @id @default(cuid())
+  clerkId   String   @unique
+  name      String?
+  email     String?  @unique
+  createdAt DateTime @default(now())
+}
+
+//
+// Hockey Stuff
+// 
+enum Position{
+  F
+  D
+  G
+}
+enum Status{
+  active
+  injured
+  benched
+}
+
+model Player{
+  id        Int @id@default(autoincrement())
+  name      String
+  team      String
+  position  Position
+  status    Status
+
+  playerGameStats PlayerGameStats[]
+  playerSeasonStats PlayerSeasonStats[]
+  roster            Roster[]
+}
+
+model Game{
+  id       Int @id@default(autoincrement())
+  gameDate DateTime 
+  homeTeam String 
+  awayTeam String
+
+  playerGameStats PlayerGameStats[]
+
+  @@map("games")
+}
+
+
+model PlayerGameStats{
+  id        Int @id@default(autoincrement())
+  playerId  Int 
+  gameId    Int
+  goals     Int @default(0)
+  assists   Int @default(0)
+  saves     Int @default(0)
+  hits      Int @default(0)
+  plusMinus Int @default(0) @map("plus_minus")
+  shots     Int @default(0)
+
+  player    Player @relation(fields: [playerId], references: [id])
+  game      Game   @relation(fields: [gameId], references: [id])
+
+  @@map("playergamestats")
+}
+
+model PlayerSeasonStats{
+  id          Int @id@default(autoincrement())
+  playerId    Int
+  seasonYear  Int
+  goals       Int @default(0)
+  assists     Int @default(0)
+  saves       Int @default(0)
+  hits        Int @default(0)
+  gamesPlayed Int @default(0)
+  plusMinus   Int @default(0) @map("plus_minus")
+  shots       Int @default(0)
+
+  player      Player @relation(fields: [playerId], references: [id])
+
+  @@map("playerseasonstats")
+}
+
+model Team {
+  id        Int    @id @default(autoincrement())
+  ownerName String
+  teamName  String
+
+  roster    Roster[]
+}
+
+
+model Roster {
+  teamId   Int    @map("team_id")
+  playerId Int    @map("player_id")
+  isActive Boolean @default(false) @map("is_active")
+
+  team     Team   @relation(fields: [teamId], references: [id])
+  player   Player @relation(fields: [playerId], references: [id])
+
+  @@map("roster")
+  @@id([teamId, playerId])
+}
+
