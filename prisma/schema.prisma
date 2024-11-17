@@ -23,7 +23,30 @@ model User {
   name      String?
   email     String?  @unique
   createdAt DateTime @default(now())
+
+  league League[]
+
+  UserLeague UserLeague[]
 }
+
+model League {
+  id Int @id @default(autoincrement())
+  
+  user User[]
+  UserLeague UserLeague[]
+
+  Roster Roster[]
+}
+
+model UserLeague {
+  userId  String
+  leagueId Int
+  user     User  @relation(fields: [userId], references: [id])
+  league   League @relation(fields: [leagueId], references: [id])
+
+  @@id([userId, leagueId])
+}
+
 
 //
 // Hockey Stuff
@@ -109,12 +132,15 @@ model Team {
 model Roster {
   teamId   Int    @map("team_id")
   playerId Int    @map("player_id")
+  leagueId Int
   isActive Boolean @default(false) @map("is_active")
 
   team     Team   @relation(fields: [teamId], references: [id])
   player   Player @relation(fields: [playerId], references: [id])
+  league   League @relation(fields: [leagueId], references: [id])
 
   @@map("roster")
-  @@id([teamId, playerId])
+  @@id([teamId, playerId, leagueId]) // Composite primary key including league
 }
+
 
