@@ -1,7 +1,7 @@
 "use client";
 
 import heroImage from "@/assets/images/heroImage.png";
-import { useAuth } from "@clerk/nextjs";
+import { useAuth, SignedOut, SignedIn, UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -20,12 +20,28 @@ const HeroPage = () => {
             Create your dream team, compete, and win in the ultimate fantasy
             hockey league!
           </p>
-          <Link href={isSignedIn ? "/dashboard" : "/sign-in"} passHref>
-            <button className="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-full text-lg font-semibold">
-              Compete
-            </button>
-          </Link>
+
+          <div>
+            {isSignedIn ? (
+              <Link href={isSignedIn ? "pages/dashboard" : "/sign-up"} passHref>
+                <button className="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-full text-lg font-semibold">
+                  Compete
+                </button>
+              </Link>
+            ) : (
+              <SignedOut>
+                <Link href="/sign-up">
+                  <div>
+                    <h3 className="mb-4 text-xl font-bold text-blue-500">
+                      Sign in or sign up for an account
+                    </h3>
+                  </div>
+                </Link>
+              </SignedOut>
+            )}
+          </div>
         </div>
+
         {/* Right Column - Image */}
         <div className="flex justify-center items-center">
           <img

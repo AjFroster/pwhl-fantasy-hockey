@@ -28,10 +28,10 @@ const Dashboard = () => {
             </li>
             <li>
               <a
-                href="/dashboard/profile"
+                href="/dashboard/players"
                 className="block p-2 rounded hover:bg-gray-700"
               >
-                Profile
+                Players
               </a>
             </li>
           </ul>

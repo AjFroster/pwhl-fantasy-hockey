@@ -1,0 +1,1031 @@
+[
+  {
+    "id": 1,
+    "name": "Natalie Spooner",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Nurse",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Marie-Philip Poulin",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "Alex Carpenter",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Ella Shelton",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "name": "Brianne Jenner",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Grace Zumwinkle",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Emma Maltais",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "name": "Laura Stacey",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "name": "Kateřina Mrázová",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "name": "Erin Ambrose",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "name": "Daryl Watts",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "name": "Kendall Coyne Schofield",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "name": "Alina Müller",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "name": "Maureen Murphy",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "name": "Kelly Pannek",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "name": "Emily Clark",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "name": "Megan Keller",
+    "team": "BOS",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "name": "Hannah Miller",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "name": "Jessie Eldridge",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 21,
+    "name": "Jade Downie-Landry",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 22,
+    "name": "Abby Roque",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 23,
+    "name": "Jaime Bourbonnais",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 24,
+    "name": "Taylor Heise",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 25,
+    "name": "Susanna Tapani",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 26,
+    "name": "Renata Fast",
+    "team": "TOR",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 27,
+    "name": "Gabbie Hughes",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 28,
+    "name": "Savannah Harmon",
+    "team": "OTT",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 29,
+    "name": "Tereza Vanišová",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 30,
+    "name": "Lexie Adzija",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 31,
+    "name": "Hilary Knight",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 32,
+    "name": "Jamie Lee Rattray",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 33,
+    "name": "Hannah Brandt",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 34,
+    "name": "Hayley Scamurra",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 35,
+    "name": "Sophie Jaques",
+    "team": "MIN",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 36,
+    "name": "Jocelyne Larocque",
+    "team": "TOR",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 37,
+    "name": "Claire Dalton",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 38,
+    "name": "Kristin O'Neill",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 39,
+    "name": "Blayre Turnbull",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 40,
+    "name": "Rebecca Leslie",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 41,
+    "name": "Amanda Boulier",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 42,
+    "name": "Michela Cava",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 43,
+    "name": "Brittany Howard",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 44,
+    "name": "Aneta Tejralová",
+    "team": "OTT",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 45,
+    "name": "Lee Stecklein",
+    "team": "MIN",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 46,
+    "name": "Chloe Aurard",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 47,
+    "name": "Loren Gabel",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 48,
+    "name": "Ashton Bell",
+    "team": "OTT",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 49,
+    "name": "Taylor Girard",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 50,
+    "name": "Theresa Schafzahl",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 51,
+    "name": "Maggie Connors",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 52,
+    "name": "Kali Flanagan",
+    "team": "TOR",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 53,
+    "name": "Denisa Křížová",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 54,
+    "name": "Catherine Dubois",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 55,
+    "name": "Gabrielle David",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 56,
+    "name": "Natalie Buchbinder",
+    "team": "MIN",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 57,
+    "name": "Natalie Snodgrass",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 58,
+    "name": "Maggie Flaherty",
+    "team": "MIN",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 59,
+    "name": "Allie Munroe",
+    "team": "TOR",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 60,
+    "name": "Kati Tabin",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 61,
+    "name": "Abby Boreen",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 62,
+    "name": "Mélodie Daoust",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 63,
+    "name": "Sophie Shirley",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 64,
+    "name": "Mikyla Grant-Mentis",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 65,
+    "name": "Ann-Sophie Bettez",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 66,
+    "name": "Victoria Bach",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 67,
+    "name": "Emma Woods",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 68,
+    "name": "Jesse Compher",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 69,
+    "name": "Brooke Hobson",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 70,
+    "name": "Sarah Lefort",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 71,
+    "name": "Jincy Roese",
+    "team": "OTT",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 72,
+    "name": "Sarah Bujold",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 73,
+    "name": "Elizabeth Giguère",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 74,
+    "name": "Leah Lum",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 75,
+    "name": "Emily Brown",
+    "team": "BOS",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 76,
+    "name": "Jillian Dempsey",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 77,
+    "name": "Gigi Marvin",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 78,
+    "name": "Sidney Morin",
+    "team": "BOS",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 79,
+    "name": "Kayla Vespa",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 80,
+    "name": "Kaleigh Fratkin",
+    "team": "BOS",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 81,
+    "name": "Sophia Kunin",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 82,
+    "name": "Nicole Kosta",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 83,
+    "name": "Claire Butorac",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 84,
+    "name": "Jess Healey",
+    "team": "BOS",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 85,
+    "name": "Alexandra Labelle",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 86,
+    "name": "Zoe Boyd",
+    "team": "OTT",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 87,
+    "name": "Liz Schepers",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 88,
+    "name": "Micah Zandee-Hart",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 89,
+    "name": "Becca Gilmore",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 90,
+    "name": "Paetyn Levis",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 91,
+    "name": "Jessica Digirolamo",
+    "team": "BOS",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 92,
+    "name": "Mariah Keopple",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 93,
+    "name": "Abby Cook",
+    "team": "BOS",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 94,
+    "name": "Samantha Cogan",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 95,
+    "name": "Akane Shiga",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 96,
+    "name": "Alexa Vasko",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 97,
+    "name": "Kennedy Marchment",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 98,
+    "name": "Jill Saulnier",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 99,
+    "name": "Brittyn Fleming",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 100,
+    "name": "Amanda Pelkey",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 101,
+    "name": "Catherine Daoust",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 102,
+    "name": "Madison Bizal",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 103,
+    "name": "Mellissa Channell-Watkins",
+    "team": "MIN",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 104,
+    "name": "Kristin Della Rovere",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 105,
+    "name": "Fanni Garát-Gasparics",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 106,
+    "name": "Brooke Bryant",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 107,
+    "name": "Kelly Babstock",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 108,
+    "name": "Sydney Brodt",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 109,
+    "name": "Olivia Zafuto",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 110,
+    "name": "Nicole Hensley",
+    "team": "MIN",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 111,
+    "name": "Brigitte Laganière",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 112,
+    "name": "Olivia Knowles",
+    "team": "TOR",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 113,
+    "name": "Savannah Norcross",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 114,
+    "name": "Kristen Campbell",
+    "team": "TOR",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 115,
+    "name": "Clair DeGeorge",
+    "team": "MIN",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 116,
+    "name": "Emerance Maschmeyer",
+    "team": "OTT",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 117,
+    "name": "Madison Packer",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 118,
+    "name": "Kaitlin Willoughby",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 119,
+    "name": "Shiann Darkangelo",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 120,
+    "name": "Lauriane Rougeau",
+    "team": "TOR",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 121,
+    "name": "Victoria Howran",
+    "team": "OTT",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 122,
+    "name": "Carley Olivier",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 123,
+    "name": "Lindsey Post",
+    "team": "NY",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 124,
+    "name": "Malia Schneider",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 125,
+    "name": "Sandra Abstreiter",
+    "team": "OTT",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 126,
+    "name": "Erica Howe",
+    "team": "TOR",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 127,
+    "name": "Alexa Gruschow",
+    "team": "NY",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 128,
+    "name": "Jess Jones",
+    "team": "TOR",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 129,
+    "name": "Dominika Lásková",
+    "team": "MTL",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 130,
+    "name": "Elaine Chuli",
+    "team": "MTL",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 131,
+    "name": "Abigail Levy",
+    "team": "NY",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 132,
+    "name": "Alexandra Poznikoff",
+    "team": "MTL",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 133,
+    "name": "Emma Söderberg",
+    "team": "BOS",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 134,
+    "name": "Sammy Davis",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 135,
+    "name": "Samantha Isbell",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 136,
+    "name": "Maddie Rooney",
+    "team": "MIN",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 137,
+    "name": "Maude Poulin-Labelle",
+    "team": "TOR",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 138,
+    "name": "Dominique Kremer",
+    "team": "MIN",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 139,
+    "name": "Rosalie Demers",
+    "team": "OTT",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 140,
+    "name": "Emma Buckles",
+    "team": "OTT",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 141,
+    "name": "Corinne Schroeder",
+    "team": "NY",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 142,
+    "name": "Ann-Renée Desbiens",
+    "team": "MTL",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 143,
+    "name": "Taylor Wenczkowski",
+    "team": "BOS",
+    "position": "F",
+    "status": "active"
+  },
+  {
+    "id": 144,
+    "name": "Aerin Frankel",
+    "team": "BOS",
+    "position": "G",
+    "status": "active"
+  },
+  {
+    "id": 145,
+    "name": "Johanna Fällman",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 146,
+    "name": "Taylor Baker",
+    "team": "NY",
+    "position": "D",
+    "status": "active"
+  },
+  {
+    "id": 147,
+    "name": "Emma Greco",
+    "team": "MIN",
+    "position": "D",
+    "status": "active"
+  }
+]
